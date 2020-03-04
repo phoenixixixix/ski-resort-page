@@ -34,6 +34,12 @@
   margin-top: 25px;
 }
 
+.event p:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .event .title-medium {
   color: #0070f0;
 }
