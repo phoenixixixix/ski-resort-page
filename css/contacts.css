@@ -1,0 +1,30 @@
+.contacts {
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 24px 0 30px;
+}
+
+.contacts p {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.phone-number, .email {
+  text-align: center;
+  text-decoration: none;
+  color: #0070f0;
+  margin: 7px;
+  border: 1px solid #000000;
+  border-radius: 30px;
+
+  padding: 8px 20px;
+}
+
+.phone-number {
+  margin-left: 53px;
+}
+
+.last-field {
+  margin-left: 125px;
+}
