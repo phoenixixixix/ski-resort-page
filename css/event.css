@@ -1,27 +1,12 @@
-.events {
-  max-width: 1500px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 24px 0;
-}
-
-.events:after {
-  content: "";
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both;
-}
-
 .event {
   margin-right: 30px;
 }
 
 .event-image {
   float: left;
+  box-shadow: 0 0 5px 2px;
   margin-right: 10px;
-  border: 5px solid #0070f0;
-  border-radius: 100%;
+  border-radius: 30px;
 }
 
 .event-image:after {
@@ -31,15 +16,11 @@
 }
 
 .event p {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .event p:after {
   content: "";
   display: block;
   clear: both;
-}
-
-.event .title-medium {
-  color: #0070f0;
 }

@@ -2,53 +2,28 @@
   background: #F4F4F4;
 }
 
-.reviews-container {
-  max-width: 1500px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 24px 0 30px;
-}
-
-
-.reviews-container:after {
-  content: "";
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both;
-}
-
 .review {
   float: left;
-  width: 300px;
-  margin-right: 20px;
+  width: 100%;
   margin-bottom: 20px;
+}
+
+.review p {
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 20px;
+  text-overflow: ellipsis;
 }
 
 .review-image {
   float: left;
+  width: 60px;
   border-radius: 100%;
   margin-right: 7px;
 }
 
-.review .title-small {
-  color: #0070f0;
-}
-
 .more-reviews {
-  float: right;
-  text-decoration: none;
-  color: #0070f0;
-  margin-right: 100px;
-  margin-top: 100px;
+  color: #003459;
   font-size: 20px;
-}
-
-@media (max-width: 1150px) {
-  .review {
-    float: none;
-    width: auto;
-    margin-bottom: 30px;
-    margin-left: 10px;
-  }
 }

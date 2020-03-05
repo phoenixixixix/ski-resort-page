@@ -1,0 +1,12 @@
+.features {
+  background: #F4F4F4;
+}
+
+.features-image {
+  width: 100px;
+  height: auto;
+}
+
+.features .text-large {
+  color: #000000;
+}
