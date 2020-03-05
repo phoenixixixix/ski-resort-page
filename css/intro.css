@@ -1,83 +1,28 @@
 .intro {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../mountains.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../resort.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
   background-position: 0 0%, center top;
 
-  color: #fff;
+  padding: 36px;
+  margin-top: 76px;
 }
 
-.fogging {
-  background-color: rgba(0, 0, 0, 0.25);
+.intro .text-large {
+  color: #ffffff;
 }
 
-.intro, .fogging {
-  width: 100%;
-  height: 700px;
+.intro .title-large {
+  font-size: 57px;
+  max-width: 460px;
+  margin: 0 auto 26px auto;
+  color: #ffffff;
 }
 
-.logo {
-  display: inline-block;
-  text-align: center;
-  padding: 40px;
-  width: 400px;
-}
-
-.logo .ski-resort-logo {
-  color: #CC0E0E;
-}
-
-.order {
-  width: 310px;
-  height: 45px;
-  float: right;
-  border-radius: 35px;
-  background-color: #CC0E0E;
-
-  margin: 60px 170px 50px;
-
-  text-align: center;
-  padding: 10px 0;
-
-}
-
-.intro-text {
-  text-align: center;
-  width: 400px;
-  padding: 40px;
-}
-
-.intro-text p {
-  letter-spacing: 1.2px;
-  font-size: 26px;
-}
-
-.features {
-  background: rgba(0, 120, 201, 0.7);
-  border-radius: 30px;
-  width: 400px;
-  margin: 40px;
-}
-
-.features-list {
-  padding-left: 45px;
-}
-
-.features-list li{
-  margin-bottom: .5em;
-  letter-spacing: 1.2px;
-  font-size: 26px;
-}
-
-@media (max-width: 1150px) {
-  .features, .intro-text {
-    margin-top: 0;
-  }
-
-  .order {
-    float: none;
-    margin: auto auto auto 85px;
+@media (max-width: 640px) {
+  .intro .container {
+    padding: 24px 0;
   }
 }
