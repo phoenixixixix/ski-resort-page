@@ -45,6 +45,11 @@
   font-weight: bold;
 }
 
+.section-link:hover {
+  color: #003459;
+  transition: all ease .4s;
+}
+
 @media (max-width: 640px) {
   .header {
     position: inherit;

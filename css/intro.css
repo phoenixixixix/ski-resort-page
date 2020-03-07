@@ -1,6 +1,6 @@
 .intro {
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../resort.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
