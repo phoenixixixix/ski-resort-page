@@ -11,5 +11,9 @@
   font-size: 35px;
   border-radius: 25px;
   padding: 8px 15px;
+}
 
+.button-order:hover {
+  background: #005B9B;
+  transition: all ease .3s;
 }
