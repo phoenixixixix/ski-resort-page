@@ -1,18 +1,11 @@
-.contacts p {
-  margin-bottom: 22px;
-}
+.email, .phone-number {
+  margin-bottom: 15px;
 
-.phone-number, .email {
-  text-align: center;
-  text-decoration: none;
-  border: 1px solid #000000;
-  border-radius: 20px;
-  padding: 8px 20px;
-
-  font-size: 17px;
   color: #003459;
+  font-size: 20px;
 }
 
-.last-field {
-  margin-left: 60px;
+.email {
+  display: block;
+  text-decoration: none;
 }
