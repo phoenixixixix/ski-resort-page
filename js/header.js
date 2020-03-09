@@ -1,5 +1,5 @@
 $(function(){
-  $('.section-link').click(function(){
+  $('.section-link, .logo-link').click(function(){
     var id = $(this).attr('href');
 
     $('html, body').animate({
